@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaJam Coffee House Jobs</title>
+        <link rel="stylesheet" href="javajam.css">
+    </head>
+    <body>
+    <div id="wrapper">
+        <header>
+            <h1>JavaJam Coffe House</h1>
+        </header>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            </ul>
+        </nav>
+        <main>
+            <!--<img src="img/mugs.jpg" alt="mugs" height="" width="" align="right">-->
+            <div id="herojobs"></div>
+            <h2>Jobs at JavaJam</h2>
+            <p>Want to work at JavaJam? Fill out the form below to start your application.</p>
+            <form method="POST" action="https://webdevbasics.net/scripts/javajam8.php">
+                <label for="myName">Name:</label>
+                <input type="text" name="myName" id="myName" required="required">
+                <label for="myemail">E-mail:</label>
+                <input type="email" name="myEmail" id="myEmail" required="required">
+                <label for="myExperience">Experience:</label>
+                <textarea name="myExperience" id="myExperience" cols="20" rows="2" required="required"></textarea>
+                <input type="submit" value="Confirm" id="mySubmit">
+            </form>
+            
+        </main>
+        <br>
+        <footer>
+                Copyright © 2021 JavaJam Coffee House<br>
+                <a href="mailto:Chiew@JinXiong.com">Chiew@JinXiong.com</a>
+        </footer>
+    </div>
+    </body>
+</html>
